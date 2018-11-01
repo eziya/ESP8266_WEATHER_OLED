@@ -205,8 +205,10 @@ void loop()
 
 			tickerFlag = false;
 		}
-
-		delay(remainingTimeBudget);
+		else
+		{
+			delay(remainingTimeBudget);
+		}
 	}
 }
 
