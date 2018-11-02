@@ -4,6 +4,7 @@
 #include <Ticker.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
+#include <SSD1306Spi.h>
 #include <SSD1306Wire.h>
 #include <OLEDDisplayUi.h>
 #include "images.h"
@@ -48,6 +49,14 @@ void drawFrame5(OLEDDisplay *, OLEDDisplayUiState *, int16_t, int16_t);
 
 /* Variables */
 _weatherinfo weatherinfo;
+
+// Initialize the OLED display using SPI
+// D5 -> CLK
+// D7 -> MOSI (DOUT)
+// D0 -> RES
+// D2 -> DC
+// D8 -> CS
+//SSD1306Spi        display(D0, D2, D8);
 SSD1306Wire display(0x3c, D3, D5);
 OLEDDisplayUi ui(&display);
 
