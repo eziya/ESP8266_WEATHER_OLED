@@ -14,6 +14,10 @@ Weather information using OpenWeatherMap API + SSD1306 Library
  - ESP8266 NodeMCU V2 <br>
  - SSD1306 128x64 OLED <br>
  
+ [Tutorial]<br>
+ https://blog.naver.com/eziya76/221389743836<br>
+ <br> 
+ 
 ![weather_oled](./weather_oled.JPG)<br>
 
 <a href="https://youtu.be/ZmdSWz6VyoQ" target="_blank"><img src="https://i.ytimg.com/vi/ZmdSWz6VyoQ/2.jpg?time=1540998040449" 
